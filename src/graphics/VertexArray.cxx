@@ -110,8 +110,8 @@ VertexArray::VertexArray(const std::vector<const VertexAttributes>& attributes,
 
         combined_ebo_size += current_size;
 
-        const auto current_offset = m_index_offsets[i] + current_size;
         if (i < indices.size() - 1) {
+            const auto current_offset = m_index_offsets[i] + current_size;
             m_index_offsets.push_back(current_offset);
         }
         m_index_counts.push_back(indices[i].getIndexCount());
