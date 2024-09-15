@@ -1,2 +1,4 @@
 *.cxx linguist-language=C++
 *.hxx linguist-language=C++
+deps/** linguist-vendored
+include/** linguist-vendored
