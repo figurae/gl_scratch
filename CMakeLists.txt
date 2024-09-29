@@ -10,7 +10,7 @@ set (sources
     ${deps}
     src/main.cxx
     src/init.cxx
-    src/graphics/Shader.cxx
+    src/graphics/ShaderProgram.cxx
     src/graphics/VertexArray.cxx
     src/graphics/VertexData.cxx)
 

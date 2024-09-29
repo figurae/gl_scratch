@@ -3,7 +3,7 @@
 #include <print>
 #include <string>
 #include <glad/gl.h>
-#include "Shader.hxx"
+#include "ShaderProgram.hxx"
 
 ShaderProgram::ShaderProgram(const char* vertex_shader_path,
                              const char* fragment_shader_path) {

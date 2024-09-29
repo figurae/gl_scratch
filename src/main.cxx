@@ -1,7 +1,7 @@
 #include <vector>
 #include <glad/gl.h>
 #include <GLFW/glfw3.h>
-#include "graphics/Shader.hxx"
+#include "graphics/ShaderProgram.hxx"
 #include "graphics/VertexArray.hxx"
 #include "init.hxx"
 #include "main.hxx"
