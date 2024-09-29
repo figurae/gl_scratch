@@ -5,7 +5,7 @@
 void SceneManager::loadScene(SceneName scene_name) {
     switch (scene_name) {
     case SceneName::Triangle: {
-        current_scene = std::make_unique<TriangleScene>(TriangleScene());
+        current_scene = std::make_unique<TriangleScene>();
     }
     }
 }
