@@ -1,6 +1,6 @@
+#include <memory>
 #include "SceneManager.hxx"
 #include "TriangleScene.hxx"
-#include <memory>
 
 void SceneManager::loadScene(SceneName scene_name) {
     switch (scene_name) {

@@ -5,10 +5,12 @@
 
 enum SceneName { Triangle };
 
-namespace SceneManager {
-    static std::unique_ptr<Scene> current_scene;
+class SceneManager {
+public:
+    void static loadScene(SceneName scene_name);
+    void static updateScene(float dt);
+    void static drawScene();
 
-    void loadScene(SceneName scene_name);
-    void updateScene(float dt);
-    void drawScene();
-}
+private:
+    inline static std::unique_ptr<Scene> current_scene;
+};
